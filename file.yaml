@@ -1,0 +1,14 @@
+file_type: csv
+dataset_name: file
+file_name: FullDataCsv
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - timestamp
+    - open
+    - high
+    - low
+    - close
+    - volume
